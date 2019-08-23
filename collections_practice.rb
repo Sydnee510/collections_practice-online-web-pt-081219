@@ -18,9 +18,7 @@ def kesha_maker(array)
   
 end
 def find_a()
-  input = "a"
-match = dictionary.select { |a| a.match(input) }
-puts match
+dictionary.select { |word| word.start_with?('a') }
 end 
 def sum_array(array)
   array.sum
