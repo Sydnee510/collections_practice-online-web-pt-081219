@@ -12,6 +12,7 @@ def swap_elements(array)
   array
 end 
 def reverse_array
+  array.reverse
 end 
 def kesha_maker
 end
