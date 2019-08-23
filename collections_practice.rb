@@ -19,8 +19,8 @@ def kesha_maker(array)
 end
 def find_a
 end 
-def sum_array
-  array + array
+def sum_array(array)
+  array.sum
 end 
 def add_s(array)
   array.each_with_index.map do |call, index|
