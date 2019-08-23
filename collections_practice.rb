@@ -15,7 +15,7 @@ def reverse_array(array)
   array.reverse
 end 
 def kesha_maker(array)
-  
+  input = []
 end
 def find_a(word)
 word.select { |word| word.start_with?('a') }
